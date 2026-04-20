@@ -26,16 +26,16 @@
 
     height: 56px;
     width: 100%;
-    color: #fff;
-    background: #f98921;
+    color: $color-white;
+    background: $color-accent;
     border: none;
     border-radius: 8px;
     cursor: pointer;
 
-    @include hover(background, #1b2129);
+    @include hover(background, $main-text-color);
 
     &:focus {
-      background: #010810;
+      background: $color-accent-dark;
     }
 
     grid-column: 1 / -1;
